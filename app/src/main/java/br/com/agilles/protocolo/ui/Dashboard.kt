@@ -1,7 +1,8 @@
-package br.com.agilles.protocolo
+package br.com.agilles.protocolo.ui
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import br.com.agilles.protocolo.R
 
 class Dashboard : AppCompatActivity() {
 
