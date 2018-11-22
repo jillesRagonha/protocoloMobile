@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/menu_favorito"
+                android:icon="@drawable/ic_up"
+                android:title="Documentos Despachados"/>
+
+        <item
+                android:id="@+id/menu_lista_ocorrencias"
+                android:icon="@drawable/ic_down"
+                android:title="Documentos Recebidos"/>
+
+
+
+    </group>
+
+    <item
+            android:id="@+id/submenu_outros"
+            android:title="Visualizar">
+
+        <menu>
+            <item
+                    android:id="@+id/menu_todos"
+                    android:icon="@drawable/ic_oficio"
+                    android:title="Todos Documentos"/>
+            <item
+                    android:id="@+id/menu_todos_oficio"
+                    android:icon="@drawable/ic_oficio"
+                    android:title="Ofícios"/>
+            <item
+                    android:id="@+id/menu_todos_rel_comunicacao"
+                    android:icon="@drawable/ic_relatorio"
+                    android:title="Relatórios de Comunicação"/>
+            <item
+                    android:id="@+id/menu_todos_processos"
+                    android:icon="@drawable/ic_processo"
+                    android:title="Processos"/>
+
+        </menu>
+
+    </item>
+
+</menu>

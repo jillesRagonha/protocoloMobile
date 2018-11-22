@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Protocolo</string>
     <string name="titulo_total_documentos">Protocolos</string>
+    <string name="voc_possui_8_documentos_para_serem_despachados">Você possui <b>8</b> documentos para serem despachados    </string>
+    <string name="abrir"> Abrir</string>
+    <string name="fechar">Fechar</string>
 </resources>

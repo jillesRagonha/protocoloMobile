@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent" android:layout_height="200dp"
+              android:background="@drawable/nav_background"
+              android:gravity="bottom"
+              android:orientation="vertical"
+              android:padding="8dp"
+              android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:contentDescription="Imagem usada pelo avatar"
+            android:id="@+id/nav_image_perfil"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="08dp"
+            android:src="@drawable/ic_avatar"/>
+
+    <TextView
+            android:id="@+id/nav_text_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorTextIcons"
+            android:text="Jilles Ragonha"/>
+
+    <TextView
+            android:id="@+id/nav_text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:textColor="@color/colorTextIcons"
+            android:text="jilles.ragonha@hotmail.com"/>
+</LinearLayout>
