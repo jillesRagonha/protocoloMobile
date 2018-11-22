@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Protocolo</string>
+    <string name="titulo_total_documentos">Protocolos</string>
 </resources>
