@@ -5,6 +5,12 @@
         android:layout_height="?android:attr/actionBarSize"
         android:id="@+id/toolbar">
 
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Recepção"
+              android:layout_gravity="center"
+              android:textColor="@color/colorTextIcons"
+              android:textSize="24sp"
+              android:fontFamily="sans-serif-black"/>
 
 
 </android.support.v7.widget.Toolbar>
